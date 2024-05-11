@@ -51,14 +51,9 @@ body {
 	padding: 30px;
 }
 
-
 .content p {
 	color: white;
 	padding: 0px 20px;
-}
-
-.content a {
-	color: white;
 }
 
 .content a:link {
@@ -90,6 +85,10 @@ body {
 	color: #cce6ff;
 	padding: 15px;
 	text-align: left;
+}
+
+.content th {
+	font-size: 20px;
 }
 
 .content td {
