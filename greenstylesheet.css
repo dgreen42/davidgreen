@@ -51,9 +51,30 @@ body {
 	padding: 30px;
 }
 
+
 .content p {
 	color: white;
 	padding: 0px 20px;
+}
+
+.content a {
+	color: white;
+}
+
+.content a:link {
+	color: #b3d9ff;
+}
+
+.content a:visited {
+	color: #3399ff;
+}
+
+.content a:hover {
+	color: red;
+}
+
+.content a:active {
+	color: yellow;
 }
 
 .content h2 {
@@ -61,9 +82,21 @@ body {
 	padding: 0px 10px;
 }
 
+.content table {
+	padding: 10px;
+}
+
+.content thead {
+	color: #cce6ff;
+	padding: 15px;
+	text-align: left;
+}
+
 .content td {
+	background-color: black;
 	color: #e6f2ff;
 	border-style: solid;	
+	padding: 10px;
 }
 
 .content img {
